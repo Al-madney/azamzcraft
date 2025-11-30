@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AZAZM CRAFT - Web Developer, Graphic Designer & Content Creator. Crafting digital experiences that blend creativity with functionality.">
+    <meta name="keywords" content="Web Development, Graphic Design, Content Creator, Portfolio">
+    <title>AZAZM CRAFT - Web Developer, Designer & Influencer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">AZAZM CRAFT</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">AZAZM CRAFT</h1>
+            <p class="hero-subtitle">Web Developer • Graphic Designer • Content Creator</p>
+            <p class="hero-description">Crafting digital experiences that blend creativity with functionality</p>
+            <a href="#contact" class="cta-button">Let's Work Together</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-section">
+                    <!-- Added profile picture container -->
+                    <div class="profile-image-container">
+                        <div class="profile-image-placeholder">
+                             <img src="/Images/MD.jpg" alt="" style="width: 100%; height: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                            <p>Madaniyyu Halliru</p>
+                            <small>CEO/MD AZAZM CRAFT</small>
+                          
+                    
+                        </div>
+                       
+                    </div>
+                    <!-- Added bio section with name and description -->
+                    <div class="profile-bio">
+                        <h3 class="profile-name">MADANIYYU HALLIRU</h3>
+                        <p class="profile-title">Creative Professional | Web Developer | Graphic Designer | Influencer</p>
+                        <p class="profile-description">
+                            I'm a multi-talented creative professional with expertise in web development, graphic design, and digital influence. With a passion for building beautiful, functional digital experiences, I bring ideas to life through code and design.
+                        </p>
+                        <p class="profile-description">
+                            Currently working on exciting projects that showcase the intersection of design and development, creating visually stunning websites and applications that engage and inspire users.
+                        </p>
+                        <div class="skills-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Graphic Design</span>
+                            <span class="tag">Social Media</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Graphic Design</button>
+                <button class="filter-btn" data-filter="content">Content</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Web Dev Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A fully responsive online store with product filtering, shopping cart, and secure checkout</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern, interactive portfolio site with smooth animations and contact form integration</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Interactive web app for organizing and tracking daily tasks with local storage</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Projects -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="project-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete brand package including logo, color palette, and design guidelines</p>
+                        <div class="project-tags">
+                            <span>Branding</span>
+                            <span>Logo Design</span>
+                            <span>Color Theory</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <div class="project-info">
+                        <h3>Social Media Campaign</h3>
+                        <p>Eye-catching designs for Instagram, Facebook, and TikTok marketing campaigns</p>
+                        <div class="project-tags">
+                            <span>Social Design</span>
+                            <span>Visual Content</span>
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);"></div>
+                    <div class="project-info">
+                        <h3>UI/UX Design System</h3>
+                        <p>Comprehensive design system with components, typography, and accessibility guidelines</p>
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>UX Design</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Projects -->
+                <div class="project-card" data-category="content">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);"></div>
+                    <div class="project-info">
+                        <h3>YouTube Channel Branding</h3>
+                        <p>Custom thumbnails, banners, and video editing for growing YouTube presence</p>
+                        <div class="project-tags">
+                            <span>Content Creation</span>
+                            <span>Branding</span>
+                            <span>Video Editing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="content">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);"></div>
+                    <div class="project-info">
+                        <h3>Digital Content Strategy</h3>
+                        <p>Strategic content planning and creation across multiple social media platforms</p>
+                        <div class="project-tags">
+                            <span>Strategy</span>
+                            <span>Content Creation</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="content">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%);"></div>
+                    <div class="project-info">
+                        <h3>Influencer Collaborations</h3>
+                        <p>Partnerships and sponsored content with brands and fellow creators</p>
+                        <div class="project-tags">
+                            <span>Influencer</span>
+                            <span>Partnerships</span>
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies, responsive design, and optimal performance.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Graphic Design</h3>
+                    <p>Creative design solutions including logos, branding, social media content, and visual communication materials.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Content Creation</h3>
+                    <p>Professional content creation for social media, including photography, videography, and digital storytelling.</p>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design approach to create beautiful, intuitive interfaces that enhance user experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Social Media Strategy</h3>
+                    <p>Comprehensive social media strategies to grow your online presence and engage with your audience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Brand Consultation</h3>
+                    <p>Professional guidance on building and strengthening your brand identity in the digital space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+            
+            <form class="contact-form" id="contactForm" action="mailto:hallirumadaniyyu@gmail.com">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Project Type">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://x.com/MadaniyyuH?t=-QYowjvbNN8sbck1J74_vg&s=09" target="_blank" class="social-link">Twitter</a>
+                    <a href="https://www.instagram.com/almadney_halliru?igsh=MTY5ZnV1YWw1Nml2eg==" target="_blank" class="social-link">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61555045480337" target="_blank" class="social-link">Facebook</a>
+                    <a href="https://wa.me/qr/VFKEJMMXAEKYD1" target="_blank" class="social-link">Whatsapp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AZAZM CRAFT. All rights reserved.</p>
+            <p>Crafted with passion for the creative community</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
